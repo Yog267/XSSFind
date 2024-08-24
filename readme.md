@@ -21,7 +21,7 @@ XSSFind is a tool designed to detect Cross-Site Scripting (XSS) vulnerabilities 
 2. **Create a virtual environment (optional but recommended):**
    ```bash
    python -m venv venv
-   venv\Scripts\activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
 3. **Install the required dependencies:**
